@@ -1,16 +1,21 @@
 :root {
-  --header-height: 10vh; /* Adjust the height as needed */
-  --footer-height: 10vh; /* Adjust the height as needed */
+  --header-height: 5vh; /* Adjust the height as needed */
+  --footer-height: 5vh; /* Adjust the height as needed */
   --main-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
 
 header {
-  border: 2px solid green;
   height: var(--header-height); /* Use the header height variable */
+}
+
+nav {
+  height:100%;
+ 
 }
 
 main {
   background-color: rgba(51, 51, 51, 1);
+  color: white;
   padding: 2px; /* Adjust based on your design */
   height: var(--main-height); /* Use the calculated main height */
   overflow-y: auto;
@@ -21,6 +26,5 @@ main {
 }
 
 footer {
-  border: 2px solid green;
   height: var(--footer-height); /* Use the header height variable */
 }
