@@ -28,3 +28,7 @@ main {
 footer {
   height: var(--footer-height); /* Use the header height variable */
 }
+
+.active {
+  background-color:red;
+}
