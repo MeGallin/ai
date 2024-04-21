@@ -5,12 +5,12 @@
 }
 
 header {
-  height: var(--header-height); /* Use the header height variable */
+  height: var(--header-height); 
+  padding: 0 0.4em;
 }
 
 nav {
-  height:100%;
- 
+  height: 100%;
 }
 
 main {
@@ -26,9 +26,11 @@ main {
 }
 
 footer {
-  height: var(--footer-height); /* Use the header height variable */
+  height: var(--footer-height);
+  padding: 0 0.4em;
 }
 
 .active {
-  background-color:red;
+  font-weight: bold;
+  opacity: 1;
 }
