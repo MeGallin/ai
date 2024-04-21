@@ -1,0 +1,24 @@
+nav {
+  text-transform: uppercase;
+}
+nav a {
+  text-decoration: none;
+  opacity: 0.6;
+}
+nav a:hover {
+  opacity: 1;
+}
+.navbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.login:hover {
+  opacity: 1;
+}

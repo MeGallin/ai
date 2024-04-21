@@ -100,6 +100,19 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Comfortaa', cursive;
+}
+p {
+  font-size: 16px;
+  font-size: clamp(1rem, 1.25vh, 1.25rem);
+  font-size: max(1rem, 1vw);
+  text-align: left;
+  margin-bottom: 0.5rem;
+  line-height: 1.6rem;
+}
+h3 {
+  display: inline-block;
 }
 
 /* A elements that don't have a class get default styles */
