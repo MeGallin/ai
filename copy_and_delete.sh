@@ -1,6 +1,6 @@
 # Set the source and destination folders
-src_folder=../client/build/
-dst_folder=../../../live/me-2023/
+src_folder=./dist/
+dst_folder=../../live/ai-cls/
 
 #Check if the destination folder exists
 if [ ! -d "$dst_folder" ]; then

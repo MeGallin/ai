@@ -2,8 +2,8 @@ import { BubbleChat } from 'flowise-embed-react';
 const ChatComponent = () => {
   return (
     <BubbleChat
-      chatflowid="72acba25-5ed7-44c8-b1c1-59f983537e8a"
-      apiHost="http://localhost:3000"
+      chatflowid="4cf8df7e-09a3-45f5-bd37-8b5791d6b836"
+      apiHost="https://flowise-ai-cls.onrender.com"
       theme={{
         button: {
           backgroundColor: 'rgba(59, 129, 246, 1)',
@@ -15,9 +15,9 @@ const ChatComponent = () => {
             'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
         },
         chatWindow: {
-          welcomeMessage: 'Hello! This is custom welcome message',
+          welcomeMessage: 'Hi, I am here to help you with CLS.',
           backgroundColor: '#ffffff',
-          height: 700,
+          height: 650,
           width: 400,
           fontSize: 16,
           poweredByTextColor: '#ffffff',
@@ -36,7 +36,7 @@ const ChatComponent = () => {
               'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png',
           },
           textInput: {
-            placeholder: 'Type your question',
+            placeholder: 'Type your or ask a question',
             backgroundColor: '#ffffff',
             textColor: '#303235',
             sendButtonColor: '#3B81F6',
