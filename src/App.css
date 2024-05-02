@@ -5,8 +5,9 @@
 }
 
 header {
-  height: var(--header-height); 
+  height: var(--header-height);
   padding: 0 0.4em;
+  background-color: whitesmoke;
 }
 
 nav {
@@ -14,7 +15,6 @@ nav {
 }
 
 main {
-  background-color: rgba(51, 51, 51, 1);
   color: white;
   padding: 2px; /* Adjust based on your design */
   height: var(--main-height); /* Use the calculated main height */
@@ -23,14 +23,18 @@ main {
   flex-direction: column; /* Stack children vertically */
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
+  -webkit-backdrop-filter: grayscale(1);
+  backdrop-filter: grayscale(1);
 }
 
 footer {
   height: var(--footer-height);
   padding: 0 0.4em;
+  background-color: whitesmoke;
 }
 
 .active {
   font-weight: bold;
+  color: rgba(59, 129, 246, 1);
   opacity: 1;
 }

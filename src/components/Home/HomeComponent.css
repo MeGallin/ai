@@ -1,0 +1,11 @@
+.home-wrapper {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  width: 80vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.4em;
+  overflow-y: auto;
+}
