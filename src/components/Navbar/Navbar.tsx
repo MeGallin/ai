@@ -1,29 +1,27 @@
-import { SignedOut, SignedIn, useClerk } from '@clerk/clerk-react';
+import { SignedIn, SignedOut } from '@clerk/clerk-react';
 import { Link } from '@tanstack/react-router';
 import './NavBar.css';
 
 const Navbar = () => {
-  const clerk = useClerk();
-  console.log(clerk);
   return (
-    <nav className="navbar-wrapper">
-      <div>
+    <nav className="navbar-wrapper" aria-label="Main navigation">
+      <>
         <Link to="/" activeProps={{ className: 'active' }}>
           Home
         </Link>
-      </div>
-      <div>
-        <SignedIn>
-          <Link to="/dashboard" activeProps={{ className: 'active' }}>
-            Dashboard
+      </>
+      <SignedOut>
+        <>
+          <Link to="/login" activeProps={{ className: 'active' }}>
+            Login
           </Link>
-        </SignedIn>
-        <SignedOut>
-          <div className="login" onClick={() => clerk.openSignIn({})}>
-            Log-in
-          </div>
-        </SignedOut>
-      </div>
+        </>
+      </SignedOut>
+      <SignedIn>
+        <Link to="/dashboard" activeProps={{ className: 'active' }}>
+          Dashboard
+        </Link>
+      </SignedIn>
     </nav>
   );
 };
