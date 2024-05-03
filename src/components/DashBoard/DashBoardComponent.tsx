@@ -3,7 +3,7 @@ import { useAuth, useUser } from '@clerk/clerk-react';
 const DashBoardComponent = () => {
   const { signOut } = useAuth();
   const { user } = useUser();
-  console.log(useAuth());
+
   return (
     <>
       <>
