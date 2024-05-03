@@ -2,7 +2,7 @@ import { SignedIn, SignedOut } from '@clerk/clerk-react';
 import { Link } from '@tanstack/react-router';
 import './NavBar.css';
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <nav className="navbar-wrapper" aria-label="Main navigation">
       <>
@@ -26,4 +26,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
