@@ -4,7 +4,7 @@ const ChatComponent = () => {
   return (
     <div>
       <BubbleChat
-        chatflowid="4cf8df7e-09a3-45f5-bd37-8b5791d6b836"
+        chatflowid="24908361-5eba-4de8-82b0-eea60c2f2b27"
         apiHost="https://flowise-ai-cls.onrender.com"
         theme={{
           button: {
