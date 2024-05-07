@@ -25,7 +25,7 @@ const DashboardComponent = () => {
     formData.append('chunkSize', '500');
     formData.append('chunkOverlap', '250');
     formData.append('separators', '');
-    formData.append('returnSourceDocuments', true);
+    formData.append('returnSourceDocuments', 'true');
 
     try {
       // Make a POST request to upload the file
